@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgba(300, 300, 300, 0.9);
+}
+.menu a {
+    margin: 0;
+    color: whitesmoke;
+}
+
+.div-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+}
+.div-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.div-links li a:hover {
+    color: #555;
+}

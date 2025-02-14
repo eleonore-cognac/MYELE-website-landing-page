@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color: black;
+}
+
+.card h3 {
+    color: black;
+}
+
+.card div {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 250px;
+    text-align: center;
+}
+
+.card div:hover {
+    transform: translateY(-5px);
+    background-color: #cecece;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}

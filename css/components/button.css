@@ -1,0 +1,17 @@
+.link-btn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.link-btn:hover {
+    background-color: #cecece;
+    color: grey;
+}
